@@ -1,0 +1,61 @@
+name: Publicar catálogo documental
+
+# Publicação explícita desta entrega, somente na branch de trabalho.
+# Alterar este arquivo E usar a marca na mensagem do commit é necessário.
+# Não publica em todo push, não modifica main e não baixa mods de terceiros.
+on:
+  push:
+    branches:
+      - arena/01a07920-ghost
+    paths:
+      - .github/workflows/publicar-catalogo.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publicar-catalogo-bdo-se-ae
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    if: contains(github.event.head_commit.message, '[publicar catálogo]')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar dados, ferramentas e gerados
+        run: |
+          python tools/catalogo.py validar
+          python -m unittest discover -s tests -v
+          node --test tests/catalogo.test.js
+          python tools/catalogo.py gerar --check
+      - name: Gerar pacote documental por allowlist
+        run: |
+          python tools/catalogo.py pacote
+          cd dist
+          sha256sum -c SHA256SUMS.txt
+      - name: Publicar e conferir os cinco anexos
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create bdo-se-ae-catalogo-v0.1.0 \
+            --target "$GITHUB_SHA" \
+            --title 'Black Desert → Skyrim SE/AE v0.1.0 — catálogo, sem arquivos de mods' \
+            --notes-file RELEASE_NOTES.md --prerelease --latest=false \
+            dist/ghost-bdo-se-ae-catalogo-v0.1.0.zip \
+            dist/mods.json dist/mods.csv dist/CONTEUDO_DA_RELEASE.json dist/SHA256SUMS.txt
+          mkdir -p .cache/release-verification
+          gh release download bdo-se-ae-catalogo-v0.1.0 --dir .cache/release-verification
+          cmp dist/SHA256SUMS.txt .cache/release-verification/SHA256SUMS.txt
+          (cd .cache/release-verification && sha256sum -c SHA256SUMS.txt)
+          gh release view bdo-se-ae-catalogo-v0.1.0 --json url,isPrerelease,assets \
+            --jq '{url,isPrerelease,assets:[.assets[]|{name,size}]}'
