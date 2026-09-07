@@ -1,0 +1,3595 @@
+{
+  "schema_version": 1,
+  "catalog_version": "0.1.0",
+  "checked_on": "2026-09-06",
+  "target": "Skyrim Special Edition / Anniversary Edition (PC)",
+  "language": "pt-BR",
+  "collection_type": "reference_catalog_not_installable_modpack",
+  "game_tests_performed": false,
+  "mod_archives_downloaded": 0,
+  "mod_archives_redistributed": 0,
+  "coverage_claim": "Levantamento amplo, não exaustivo. Não é possível medir qual porcentagem de todos os mods existentes foi coberta.",
+  "mods": [
+    {
+      "id": "kirax-female-2024",
+      "name": "BDOR 2024 Female Collection by Kirax",
+      "category": "packs",
+      "scope": "principal",
+      "family": "kirax-2024-female",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Pack cujo autor anuncia 26 trajes femininos de Black Desert Online.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "3BA"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [
+        "HDT-SMP",
+        "3BA (corpo dos trajes)"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página indica obtenção por forja ou AddItemMenu.",
+        "26 é a contagem anunciada pelo autor, não auditada dentro do arquivo.",
+        "A página descreve links Google Drive e Mega; o download final não foi testado.",
+        "Não somar os trajes às entradas deste catálogo como se fossem mods independentes."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-male-2024",
+      "name": "BDOR 2024 Male Collection By Kirax",
+      "category": "packs",
+      "scope": "principal",
+      "family": "kirax-2024-male",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Pack cujo autor anuncia 86 trajes masculinos de Black Desert Online.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "masculino"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [
+        "HDT-SMP",
+        "XP32 Skeleton"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/34339-bdor-2024-male-collection-by-kirax/",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página indica obtenção por forja ou AddItemMenu.",
+        "86 é a contagem anunciada pelo autor; não foi auditada nem deduplicada contra outros packs.",
+        "A instrução do autor pede que XP32 vença os conflitos de esqueleto. Não confundir prioridade de arquivos com ordem de plugins."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "souichirou-bdor-3ba",
+      "name": "Team TAL - BDOR Pack SMP Vol2.0 3BA",
+      "category": "packs",
+      "scope": "principal",
+      "family": "team-tal-pack",
+      "authors": [
+        "Souichirou",
+        "Team TAL"
+      ],
+      "summary": "Conversão do pack BDOR para SMP e 3BA publicada por Souichirou.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "3BA"
+      ],
+      "version_observed": "1.5 (índice)",
+      "requirements": [
+        "3BA",
+        "SMP"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://schaken-mods.com/file/team-tal-bdor-pack-smp-vol20-3ba",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 4
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice consultado anuncia versão 1.5, tamanho 1,98 GB e correção opcional do ESPFE. Valores não conferidos em um arquivo baixado.",
+        "O título Vol2.0 e a versão do arquivo 1.5 são campos diferentes.",
+        "Escolher uma base do pack; não sobrepor automaticamente com outros ports do mesmo conteúdo."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "tal-pack-se-16",
+      "name": "BDOR Pack SE by Skyrim Modding Team & TAL v1.6",
+      "category": "packs",
+      "scope": "historico",
+      "family": "team-tal-pack",
+      "authors": [
+        "Skyrim Modding Team",
+        "Team TAL"
+      ],
+      "summary": "Publicação histórica oficial do pack SE, com registro de correções de roupas, capas e física.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1.6 (título)",
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "missing_download",
+      "source": {
+        "url": "https://www.patreon.com/takealook/posts/se-bdor-pack-se-25666009",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página avisa que o Patreon da equipe responsável pelo port foi excluído.",
+        "A leitura da publicação não apresentou um arquivo de download utilizável.",
+        "Não tratar o post histórico como download validado."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "kirax-complete-legacy",
+      "name": "BDOR Complete Collection by Kirax (publicação antiga)",
+      "category": "packs",
+      "scope": "historico",
+      "family": "kirax-complete-legacy",
+      "authors": [
+        "Kirax"
+      ],
+      "summary": "Referência ao pack antigo, mantida para distinguir links antigos dos packs de 2024.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "missing_page",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/20287-bdor-complete-collection-by-kirax/",
+        "kind": "historical_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A URL retornou a mensagem de item não localizado (2D161/1). Não foi buscado mirror de terceiros."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "tal-karlstein",
+      "name": "DM BDOR Karlstein — port SE",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "karlstein",
+      "authors": [
+        "Team TAL"
+      ],
+      "summary": "Conjunto Karlstein de Black Desert, em publicação explicitamente marcada como SE.",
+      "edition": "SE",
+      "runtime_note": "O autor informa teste em SSE 1.5.80. Isso não comprova funcionamento em AE 1.6.x.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "XPMSSE",
+        "RaceMenu / NiOverride",
+        "RaceMenu High Heels",
+        "HDT-SMP para SE"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/takealook/posts/se-dm-bdor-by-29777641",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A publicação declara expressamente que seus arquivos não devem ser reenviados (reupload).",
+        "evidence_url": "https://www.patreon.com/takealook/posts/se-dm-bdor-by-29777641"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O autor registra correção do FOMOD em 11/09/2019."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "tal-eclipse",
+      "name": "DM BDOR Eclipse — port SE",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "eclipse",
+      "authors": [
+        "Team TAL"
+      ],
+      "summary": "Conjunto Eclipse de Black Desert, em publicação explicitamente marcada como SE.",
+      "edition": "SE",
+      "runtime_note": "O autor informa teste em SSE 1.5.80. Isso não comprova funcionamento em AE 1.6.x.",
+      "body": [
+        "UNP",
+        "UUNP"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "XPMSSE",
+        "RaceMenu / NiOverride",
+        "RaceMenu High Heels",
+        "HDT-SMP para SE",
+        "texturas UNP/UUNP"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/takealook/posts/se-dm-bdor-by-31633824",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A publicação declara expressamente que seus arquivos não devem ser reenviados (reupload).",
+        "evidence_url": "https://www.patreon.com/takealook/posts/se-dm-bdor-by-31633824"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Esta edição SE não inclui a capa, segundo o autor.",
+        "O autor registra ajuste do circlet e do ESP em 18/11/2019."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "tal-lemoria",
+      "name": "DM BDOR Lemoria — port SE",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "lemoria",
+      "authors": [
+        "Team TAL"
+      ],
+      "summary": "Conjunto Lemoria de Black Desert, em publicação explicitamente marcada como SE.",
+      "edition": "SE",
+      "runtime_note": "O autor informa teste em SSE 1.5.80. Isso não comprova funcionamento em AE 1.6.x.",
+      "body": [
+        "UNP",
+        "UUNP"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "XPMSSE",
+        "RaceMenu / NiOverride",
+        "RaceMenu High Heels",
+        "HDT-SMP para SE",
+        "texturas UNP/UUNP"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/takealook/posts/se-dm-bdor-by-33371502",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A publicação declara expressamente que seus arquivos não devem ser reenviados (reupload).",
+        "evidence_url": "https://www.patreon.com/takealook/posts/se-dm-bdor-by-33371502"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conjunto combina conteúdo de Lemoria e Liberto; a fonte também credita Limetale."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "tal-ram-horn-witch",
+      "name": "DM BDOR Ram Horn Witch — port SE",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "ram-horn-witch",
+      "authors": [
+        "Team TAL",
+        "Rektas",
+        "Xing"
+      ],
+      "summary": "Conjunto Ram Horn Witch de Black Desert, em publicação explicitamente marcada como SE.",
+      "edition": "SE",
+      "runtime_note": "O autor informa teste em SSE 1.5.80. Isso não comprova funcionamento em AE 1.6.x.",
+      "body": [
+        "CBBE"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "XPMSSE",
+        "RaceMenu / NiOverride",
+        "RaceMenu High Heels",
+        "HDT-SMP para SE",
+        "BodySlide"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/takealook/posts/se-dm-bdor-ram-34746196",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A publicação declara expressamente que seus arquivos não devem ser reenviados (reupload).",
+        "evidence_url": "https://www.patreon.com/takealook/posts/se-dm-bdor-ram-34746196"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversão SE por Rektas e Xing, publicada pelo Team TAL.",
+        "O autor informa suporte somente a CBBE nesta conversão e exige gerar as peças no BodySlide."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "immy-valoren",
+      "name": "BDO Valoren — immyneedscake",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "valoren",
+      "authors": [
+        "immyneedscake"
+      ],
+      "summary": "Port SE e conversão CBBE do conjunto Valoren, com física de tecido.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "CBBE"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "CBBE SE",
+        "BodySlide",
+        "AddItemMenu"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.immyneedscake.com/skyrim-se-mods/bdo-valoren",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 1
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A fonte também lista HDT-SMP ou CBP Physics e XP32, mas comenta que alguns itens são opcionais ou incertos. Conferir a publicação antes de instalar.",
+        "Usar somente uma solução de high heels, conforme a página."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "immy-sin-terrna",
+      "name": "BDO Dark Knight - Sin Terrna — immyneedscake",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "sin-terrna",
+      "authors": [
+        "immyneedscake",
+        "dint999"
+      ],
+      "summary": "Conversão SE do conjunto Sin Terrna da Dark Knight.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "CBBE",
+        "BHUNP (listado na página)"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "CBBE SE ou BHUNP",
+        "BodySlide",
+        "AddItemMenu"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.immyneedscake.com/skyrim-se-mods/dark-knight-sin-terrna",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A publicação lista HDT-SMP ou CBP Physics com observação de opcionalidade, e XP32 com ressalva.",
+        "Escolher apenas uma solução de high heels; conferir os arquivos efetivos de BodySlide para o corpo escolhido.",
+        "Link de download Mega presente na página; arquivo não baixado."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "immy-rosa-cassius",
+      "name": "BDO Dark Knight - Rosa Cassius — immyneedscake",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "rosa-cassius",
+      "authors": [
+        "immyneedscake",
+        "dint999"
+      ],
+      "summary": "Port SE do conjunto Rosa Cassius com física HDT-SMP.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "CBBE"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "HDT-SMP para a física anunciada"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.immyneedscake.com/skyrim-se-mods/dark-knight-rosa-cassius",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 7
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Não confundir com a reconstrução BDO Reborn ou com a versão dentro de um pack.",
+        "A lista completa de requisitos ainda precisa ser lida na fonte."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "sunjeong-dream-lace",
+      "name": "BDO Dream Lace — SunJeong",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "dream-lace",
+      "authors": [
+        "SunJeong",
+        "GarudaB"
+      ],
+      "summary": "Conversão para CBBE SE da roupa Dream Lace originalmente portada por GarudaB.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "CBBE",
+        "CBBE SMP",
+        "3BA"
+      ],
+      "version_observed": null,
+      "requirements": [
+        "CBBE SE",
+        "BodySlide",
+        "XPMSSE",
+        "CBPC ou HDT-SMP, conforme variante"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://sunkeumjeong.wixsite.com/mysite/post/bdo-dream-lace",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Escolher a variante no FOMOD e gerar o grupo BDO Dream Lace no BodySlide.",
+        "A fonte orienta obter o traje por AddItemMenu.",
+        "O link público do autor não equivale a autorização para hospedar uma cópia no GitHub."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "hanbok-revised",
+      "name": "BDO New Year Hanbok Revised",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "hanbok",
+      "authors": [
+        "PawBoCap"
+      ],
+      "summary": "Revisão do Hanbok do pack Team TAL, com variantes de cor separadas e ajustes de malha e material.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "3BA"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [
+        "BodySlide",
+        "CBBE 3BA",
+        "FSMP - Faster HDT-SMP"
+      ],
+      "requirements_complete": true,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/158294",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A seção Upload permission proíbe upload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/158294"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "No BodySlide, filtrar por hanbok e executar Batch Build.",
+        "A página sugere Modex para encontrar os itens."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "nightwarden-pbr",
+      "name": "BDOR NightWarden - PBR",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "nightwarden",
+      "authors": [
+        "Pesartom",
+        "Xenaith (modelo Daz)",
+        "Pearl Abyss (conteúdo original)"
+      ],
+      "summary": "Armadura e arco NightWarden preparados para renderização PBR.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "masculino"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [
+        "Community Shaders com suporte PBR",
+        "SMP para a capa"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/136047",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "nexus_only",
+        "note": "As instruções permitem derivados condicionados a serem publicados no Nexus, para SE/AE, exigirem o original e creditarem Xenaith. Não autorizam um mirror no GitHub.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/136047"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O autor afirma que materiais e malhas não funcionarão como esperado sem Community Shaders.",
+        "A capa usa SMP; criação e melhoria exigem o perk de ébano, segundo a página.",
+        "Alternativa ao port convencional: não instalar as variantes às cegas uma sobre a outra."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-nightwarden",
+      "name": "BDOR Nightwarden SMP for BHUNP and HIMBO",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "nightwarden",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de nightwarden para BHUNP/HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-nightwarden-91776638",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 1
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A publicação apresenta arquivo-base SE e dois refits, um por corpo.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-solar-knight",
+      "name": "BDOR Solar Knight SMP - BHUNP and HIMBO",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "solar-knight",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de solar knight para BHUNP/HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-solar-smp-91665850",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 1
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A publicação indica arquivo-base separado e refits BHUNP/HIMBO.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-chic-lua",
+      "name": "BDOR Chic Lua for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "chic-lua",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de chic lua para BHUNP/3BA (base), publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "3BA (base)"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-chic-lua-81153392",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 2
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Para BHUNP, a descrição orienta usar o arquivo-base e o refit.",
+        "Inclui referências a escudo, machado e capa SMP.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-hyperion",
+      "name": "BDOR Hyperion for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "hyperion",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de hyperion para BHUNP/3BA (base), publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "3BA (base)"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-hyperion-81118176",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 7
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A descrição separa o arquivo-base 3BA da conversão BHUNP.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-derictus",
+      "name": "BDOR Derictus SMP for HIMBO",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "derictus",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de derictus para HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-derictus-91807736",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 4
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversão credita em486 pelo port SE e Team TAL pelo trabalho anterior.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-arditer",
+      "name": "BDOR Arditer / Arditel SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "arditer",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de arditer para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-arditer-smp-93625449",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 6
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Refit com arquivo-base separado indicado no post.",
+        "Três opções de cor e opção de crafting são descritas na fonte.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-cernay",
+      "name": "BDOR Cernay / Silaine SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "cernay",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de cernay para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-cernay-smp-93647201",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 3
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Refit com arquivo-base separado indicado no post.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-ladrakan",
+      "name": "BDOR Ladrakan / Radrakan SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "ladrakan",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de ladrakan para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-ladrakan-93469352",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 5
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Refit com arquivo-base separado indicado no post.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-oblivion",
+      "name": "BDOR Oblivion SMP for BHUNP and HIMBO",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "oblivion",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de oblivion para BHUNP/HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-oblivion-97449001",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 6
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A fonte registra atualização do link-base em 11/02/2026.",
+        "O ESP opcional apenas craftable e os arquivos de BodySlide não dispensam o arquivo-base.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-coconut-pirate",
+      "name": "BDOR Coconut Pirate SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "coconut-pirate",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de coconut pirate para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-coconut-smp-97509363",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 10
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A fonte descreve divisão do conjunto em peças e revisão dos arquivos de física.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-kerketon",
+      "name": "BDO Kerberos / Kerketon SMP for BHUNP and HIMBO",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "kerketon",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de kerketon para BHUNP/HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdo-kerberos-smp-100071398",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página apresenta um arquivo principal e refits separados BHUNP/HIMBO.",
+        "Conjunto inclui capa, máscara, botas e espada grande; não contar esses itens como downloads independentes.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-drakania-exclair",
+      "name": "BDOR Drakania Exclair Armor SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "drakania-exclair",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de drakania exclair para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-drakania-98475852",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O autor informa que o arquivo completo está anexado, que é craftable e marcado ESL.",
+        "Dint999 é creditado na publicação.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-messenger-arduir",
+      "name": "BDO Messenger of Arduir for HIMBO",
+      "category": "conversoes",
+      "scope": "principal",
+      "family": "messenger-arduir",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de messenger arduir para HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdo-messenger-of-163219548",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Publicado em 08/07/2026 segundo o sitemap do autor.",
+        "O grupo de BodySlide informado é HIMBO - BDOR Messenger.",
+        "A publicação descreve BodySlide e alterações no ESP; conferir necessidade do arquivo-base.",
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-guardian-ynixtra",
+      "name": "BDO Guardian Ynixtra SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "ynixtra",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de guardian ynixtra para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdo-guardian-smp-139593066",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-lephria",
+      "name": "BHUNP - BDOR Lephria Armor SMP",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "lephria",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de lephria para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bhunp-bdor-armor-128898465",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-black-star",
+      "name": "BDOR Black Star SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "black-star",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de black star para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-black-star-124014643",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-guardian-grunil",
+      "name": "BDOR Guardian Grunil Armour SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "guardian-grunil",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de guardian grunil para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-guardian-98336470",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-hamshin",
+      "name": "BDOR Hamshin SMP for BHUNP",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "hamshin",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de hamshin para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-hamshin-smp-98109449",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-outlaws-margoria",
+      "name": "BDOR Outlaws of Margoria SMP for BHUNP and HIMBO",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "outlaws-margoria",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de outlaws margoria para BHUNP/HIMBO, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP",
+        "HIMBO"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-outlaws-of-93481368",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-liapina",
+      "name": "BDOR Liapina for BHUNP",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "liapina",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de liapina para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdor-liapina-for-81157089",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "urbon-valoren",
+      "name": "BDO Valoren BHUNP v4",
+      "category": "conversoes",
+      "scope": "pendente",
+      "family": "valoren",
+      "authors": [
+        "urbon"
+      ],
+      "summary": "Conversão de valoren para BHUNP, publicada por urbon.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "BHUNP"
+      ],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/urbon/posts/bdo-valoren-v4-81146768",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.patreon.com/urbon/sitemap",
+          "note": "Título e URL identificados no índice público do próprio autor.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Conversões não são automaticamente standalone. Confirmar corpo, arquivo-base e requisitos na publicação."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "kirax-reborn-ynixtra",
+      "name": "BDO Reborn - Ynixtra Armor by Kirax",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "ynixtra",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Conjunto Ynixtra de Black Desert, publicado na série Reborn para corpo feminino 3BA.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "3BA"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [
+        "3BA"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/46198-bdo-reborn-ynixtra-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página recomenda ENB com complex material e dynamic cubemap; isso é recomendação, não uma dependência obrigatória verificada.",
+        "O autor descreve download no Google Drive e possibilidade de indisponibilidade temporária por tráfego. O arquivo não foi baixado.",
+        "Consultar o guia do autor para os requisitos completos; a publicação não os enumera integralmente.",
+        "Conferir sobreposição com packs e outros ports do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-kharoxia",
+      "name": "BDO Reborn - Kharoxia Armor by Kirax",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "kharoxia",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Conjunto Kharoxia de Black Desert, publicado na série Reborn para corpo feminino 3BA.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "3BA"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [
+        "3BA"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/46197-bdo-reborn-kharoxia-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página recomenda ENB com complex material e dynamic cubemap; isso é recomendação, não uma dependência obrigatória verificada.",
+        "O autor descreve download no Google Drive e possibilidade de indisponibilidade temporária por tráfego. O arquivo não foi baixado.",
+        "Consultar o guia do autor para os requisitos completos; a publicação não os enumera integralmente.",
+        "Conferir sobreposição com packs e outros ports do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-derictus",
+      "name": "BDO Reborn - Derictus Armor by Kirax",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "derictus",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Conjunto Derictus de Black Desert, publicado na série Reborn para personagens masculinos.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "masculino"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/46187-bdo-reborn-derictus-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página recomenda ENB com complex material e dynamic cubemap; isso é recomendação, não uma dependência obrigatória verificada.",
+        "O autor descreve download no Google Drive e possibilidade de indisponibilidade temporária por tráfego. O arquivo não foi baixado.",
+        "Consultar o guia do autor para os requisitos completos; a publicação não os enumera integralmente.",
+        "Conferir sobreposição com packs e outros ports do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-scaled-dragon",
+      "name": "BDO Reborn - Scaled Dragon Armor by Kirax",
+      "category": "armaduras",
+      "scope": "principal",
+      "family": "scaled-dragon",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Conjunto Scaled Dragon de Black Desert, publicado na série Reborn para personagens masculinos.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [
+        "masculino"
+      ],
+      "version_observed": "1.0.0",
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/46186-bdo-reborn-scaled-dragon-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página recomenda ENB com complex material e dynamic cubemap; isso é recomendação, não uma dependência obrigatória verificada.",
+        "O autor descreve download no Google Drive e possibilidade de indisponibilidade temporária por tráfego. O arquivo não foi baixado.",
+        "Consultar o guia do autor para os requisitos completos; a publicação não os enumera integralmente.",
+        "Conferir sobreposição com packs e outros ports do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-nereid",
+      "name": "BDO Reborn - Nereid Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "nereid",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/46173-bdo-reborn-nereid-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-pale-rose",
+      "name": "BDO Reborn - Pale Rose Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "pale-rose",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/45794-bdo-reborn-pale-rose-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-selaine",
+      "name": "BDO Reborn - Selaine Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "selaine",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/45569-bdo-reborn-selaine-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-sephia",
+      "name": "BDO Reborn - Sephia Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "sephia",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/45525-bdo-reborn-sephia-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-elderwood",
+      "name": "BDO Reborn - Elderwood Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "elderwood",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/45152-bdo-reborn-elderwood-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-flamekissed",
+      "name": "BDO Reborn - Flamekissed Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "flamekissed",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/44982-bdo-reborn-flamekissed-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-rosa-cassius",
+      "name": "BDO Reborn - Rosa Cassius Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "rosa-cassius",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/44544-bdo-reborn-rosa-cassius-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-gavi-regan",
+      "name": "BDO Reborn - Gavi Regan Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "gavi-regan",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/44520-bdo-reborn-gavi-regan-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "kirax-reborn-lethena",
+      "name": "BDO Reborn - Lethena Armor by Kirax",
+      "category": "armaduras",
+      "scope": "pendente",
+      "family": "lethena",
+      "authors": [
+        "Kirax001"
+      ],
+      "summary": "Publicação da série BDO Reborn identificada na lista de arquivos de Kirax001.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.loverslab.com/files/file/44391-bdo-reborn-lethena-armor-by-kirax/",
+        "kind": "author_page",
+        "verification": "author_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [
+        {
+          "url": "https://www.loverslab.com/files/file/34130-bdor-2024-female-collection-by-kirax/",
+          "note": "Seção Other Files from Kirax001, consultada nos blocos 0 e 1.",
+          "search_result_id": null
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Título e URL encontrados na seção de outros arquivos do próprio autor.",
+        "Corpo, requisitos, versão, download e permissões precisam de leitura individual.",
+        "Pode sobrepor conteúdo de packs e outras conversões do mesmo conjunto."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "dint-bdor-hair",
+      "name": "Dint999 BDOR Hair / Hairstyles and Wigs",
+      "category": "cabelos",
+      "scope": "principal",
+      "family": "dint-bdor-hair",
+      "authors": [
+        "Dint999"
+      ],
+      "summary": "Pack de penteados e perucas BDOR para SE/AE; distinguir versões públicas das de acesso restrito.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "Física SMP; confirmar requisitos completos no canal do autor"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "access_restricted",
+      "source": {
+        "url": "https://boosty.to/dint999/posts/890eb051-1192-48b7-a936-a48a6c68cf02",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 3
+      },
+      "evidence": [
+        {
+          "url": "https://www.nexusmods.com/skyrimspecialedition/mods/188732",
+          "note": "A seção Requirements identifica versão 0.24 e informa autorização de Dint999 para divulgar os links ali.",
+          "search_result_id": 5
+        }
+      ],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice do Boosty informa uma versão pública anterior no Discord e acesso restrito ao post.",
+        "A página Nexus 188732, lida diretamente, fornece links da versão 0.24 com autorização do autor para publicar esses links. Isso não é autorização de reupload para este projeto.",
+        "Conferir a versão-base exigida por addons e patches; não usar versões numeradas diferentes como se fossem idênticas."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "caenarvon-hair-addon",
+      "name": "Happy New Year Gift: BDOR Hair Addon",
+      "category": "cabelos",
+      "scope": "principal",
+      "family": "dint-bdor-hair",
+      "authors": [
+        "Caenarvon"
+      ],
+      "summary": "Addon de penteados editados a partir do pack BDOR de Dint999.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "Dint999 BDOR Hair Pack"
+      ],
+      "requirements_complete": false,
+      "related_ids": [
+        "dint-bdor-hair"
+      ],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.patreon.com/Caenarvon/posts/happy-new-year-119283988",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 1
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O autor informa que o addon depende de uma versão do pack-base; não é substituto standalone."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "dint-unisex-alkavir",
+      "name": "Dint BDOR Unisex",
+      "category": "cabelos",
+      "scope": "principal",
+      "family": "dint-bdor-hair",
+      "authors": [
+        "Alkavir"
+      ],
+      "summary": "Versão unissex que depende do pack de cabelos BDOR original.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "0.24",
+      "requirements": [
+        "BDOR Hair original, em versão correspondente"
+      ],
+      "requirements_complete": false,
+      "related_ids": [
+        "dint-bdor-hair"
+      ],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/146955",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A seção Upload permission proíbe upload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/146955"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página menciona bases 0.18 e 0.2x; a versão exibida é 0.24.",
+        "Não instalar simultaneamente vários plugins de refit do mesmo cabelo sem verificar conflitos."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "dint-salt-wind",
+      "name": "Dint BDOR Hair - Salt and Wind (Sassy)",
+      "category": "cabelos",
+      "scope": "principal",
+      "family": "dint-bdor-hair",
+      "authors": [
+        "Uvithryn"
+      ],
+      "summary": "Ajuste de texturas do pack BDOR ao visual Salt and Wind, com opção Sassy.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1",
+      "requirements": [
+        "Dint999 BDOR Hair v0.24"
+      ],
+      "requirements_complete": false,
+      "related_ids": [
+        "dint-bdor-hair"
+      ],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/188732",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "permission_required",
+        "note": "O autor permite reutilizar suas alterações desde que sejam respeitadas as permissões de Dint999; a cadeia completa para reupload no GitHub não foi confirmada.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/188732"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Instalar apenas uma opção de textura e deixá-la sobrescrever a base.",
+        "A página afirma que o addon de Caenarvon compartilha essas texturas.",
+        "Autorização para divulgar links do pack-base não autoriza hospedar seus arquivos novamente."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "bdo-guardian",
+      "name": "ADXP I MCO BDO Guardian",
+      "category": "animacoes",
+      "scope": "principal",
+      "family": "guardian-moveset",
+      "authors": [
+        "krembrule"
+      ],
+      "summary": "Moveset de machado de uma mão inspirado na Guardian de Black Desert.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "Open Animation Replacer e requisitos",
+        "Attack MCO|DXP e requisitos"
+      ],
+      "requirements_complete": true,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/107863",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "Upload em outros sites é proibido na página.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/107863"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página descreve animações feitas à mão.",
+        "Não confundir com Guardian Awakening, destinado a outro conjunto de armas."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "bdo-guardian-awakening",
+      "name": "ADXP I MCO BDO Guardian Awakening",
+      "category": "animacoes",
+      "scope": "principal",
+      "family": "guardian-awakening-moveset",
+      "authors": [],
+      "summary": "Moveset Guardian Awakening para machados de duas mãos, com opções para martelos.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "ADXP|MCO e requisitos",
+        "Animation Motion Revolution",
+        "Open Animation Replacer"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/117071",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 5
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A permissão de upload indexada proíbe envio a outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/117071"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "OAR, AMR e MCO são indicados como núcleo.",
+        "TK Dodge ou DMCO são para esquivas; dTry Key Utils para ataques laterais e SCAR para combos de NPCs, conforme a descrição.",
+        "Não confundir o número da versão de MCO com a versão do executável Skyrim."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "bdo-sura-blade",
+      "name": "ADXP I MCO BDO Sura Blade Moveset",
+      "category": "animacoes",
+      "scope": "principal",
+      "family": "sura-blade",
+      "authors": [
+        "Shepiao"
+      ],
+      "summary": "Moveset dedicado à Sura Blade e sua bainha, com itens obtidos na forja.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1.0",
+      "requirements": [
+        "ADXP MCO 1.6+ (versão do mod)",
+        "Animation Motion Revolution",
+        "Behavior Data Injector",
+        "dTry Key Utils",
+        "IFrame Generator RE",
+        "One Click Power Attack NG",
+        "Open Animation Replacer",
+        "Payload Interpreter",
+        "Precision"
+      ],
+      "requirements_complete": true,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/132879",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "Embora algumas modificações sejam permitidas, Upload permission proíbe reupload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/132879"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página exige equipar Sura Blade e Sura Blade Scabbard.",
+        "O autor informa que não funciona com outras armas e pede para não substituir arquivos de ação.",
+        "MCO 1.6+ não significa Skyrim AE 1.6+."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "sura-lesser-power",
+      "name": "Sura Blade Moveset Surabuff as LessorPower",
+      "category": "patches",
+      "scope": "principal",
+      "family": "sura-blade",
+      "authors": [
+        "Headless Orc / st00nstaff"
+      ],
+      "summary": "Patch que adiciona o buff da Sura Blade como Lesser Power.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1.0",
+      "requirements": [
+        "ADXP I MCO BDO Sura Blade Moveset"
+      ],
+      "requirements_complete": true,
+      "related_ids": [
+        "bdo-sura-blade"
+      ],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/136714",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A página proíbe reupload e indica assets de outros autores.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/136714"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O autor orienta obter novamente a bainha após instalar o patch para aplicar o script.",
+        "Instalar depois do moveset-base e validar a versão."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "awakened-warrior",
+      "name": "Awakened Warrior Greatsword Animations SE",
+      "category": "animacoes",
+      "scope": "principal",
+      "family": "awakened-warrior",
+      "authors": [
+        "Eden Exile"
+      ],
+      "summary": "Animações antigas de espada grande inspiradas em Black Desert.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1",
+      "requirements": [
+        "Dynamic Animation Replacer",
+        "Dynamic Combat Module",
+        "TK Dodge SE"
+      ],
+      "requirements_complete": true,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/40216",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A página proíbe upload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/40216"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "SkySA é recomendado, não obrigatório, segundo a seção de requisitos.",
+        "A página usa Awakened Warrior no título e Dark Knight em parte da descrição; essa divergência foi preservada sem escolher uma classe por conta própria.",
+        "Não tratar como pacote MCO moderno. Verificar compatibilidade dos frameworks antigos com seu runtime."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "pretty-combat-bdo",
+      "name": "Pretty Combat Animations (PCA) SE — opção BDO",
+      "category": "animacoes",
+      "scope": "pendente",
+      "family": "pca-bdo",
+      "authors": [],
+      "summary": "Pacote geral de animações cujo changelog identifica uma opção BDO para armas de duas mãos.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/3761",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 2
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Somente a opção BDO é pertinente; não é uma conversão completa de Black Desert.",
+        "Requisitos e opções atuais do FOMOD ainda precisam de conferência individual."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "boss-dreadstorm",
+      "name": "Dreadstorm - Mountain Spirit Armor Boss Integration",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "boss-dreadstorm",
+      "authors": [],
+      "summary": "Integra BDOR Mountain Spirit ao mundo por meio de confronto com chefe(s).",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "BDOR Mountain Spirit SE e seus requisitos"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/97780",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 2
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Adiciona um chefe que usa o conjunto; a página declara não incluir assets da armadura.",
+        "A fonte aponta possível custo de desempenho do capacete SMP durante a tempestade.",
+        "TrueHUD, DAR/OAR, MCO e SCAR aparecem como opcionais na fonte; não são todos requisitos obrigatórios deste patch."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "boss-jabal",
+      "name": "Lord Jabal - La Orzeca Armor Boss Integration",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "boss-jabal",
+      "authors": [],
+      "summary": "Integra BDOR La Orzeca ao mundo por meio de confronto com chefe(s).",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "BDOR La Orzeca SE e seus requisitos"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/97932",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 6
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Adiciona um chefe que entrega o conjunto; os assets da armadura não estão incluídos.",
+        "TrueHUD, DAR/OAR, MCO e SCAR aparecem como opcionais na fonte; não são todos requisitos obrigatórios deste patch."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "boss-izela",
+      "name": "Izela Clovermist - Corbicanus Armor Boss Integration",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "boss-izela",
+      "authors": [],
+      "summary": "Integra BDOR Corbicanus ao mundo por meio de confronto com chefe(s).",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "BDOR Corbicanus SE",
+        "Abyss, de Darenii",
+        "FSMP"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/100498",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 4
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Exige tanto a armadura quanto o pacote de magia Abyss; a página diz não incluir os assets de nenhum deles.",
+        "TrueHUD, DAR/OAR, MCO e SCAR aparecem como opcionais na fonte; não são todos requisitos obrigatórios deste patch."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "boss-velkaviore",
+      "name": "Velkaviore - Arditer Armor Boss Integration",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "boss-velkaviore",
+      "authors": [
+        "Ecskrillos"
+      ],
+      "summary": "Integra BDOR Arditer ao mundo por meio de confronto com chefe(s).",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "BDOR Arditer SE",
+        "FSMP",
+        "RaceMenu e 3BA para a armadura-base"
+      ],
+      "requirements_complete": false,
+      "related_ids": [
+        "urbon-arditer"
+      ],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/100648",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": 1
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A página proíbe upload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/100648"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Na versão referida, a armadura é apenas feminina.",
+        "A fonte sugere a opção No Craft no FOMOD do mod-base; o patch não contém os assets da armadura.",
+        "TrueHUD, DAR/OAR, MCO e SCAR aparecem como opcionais na fonte; não são todos requisitos obrigatórios deste patch."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "boss-duology",
+      "name": "Duology Paramour - Oblivion Armor Boss Integration",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "boss-duology",
+      "authors": [],
+      "summary": "Integra BDOR Oblivion ao mundo por meio de confronto com chefe(s).",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "BDOR Oblivion SE",
+        "FSMP"
+      ],
+      "requirements_complete": false,
+      "related_ids": [
+        "urbon-oblivion"
+      ],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/101175",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 3
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Adiciona dois chefes e recompensas; a armadura-base precisa ser instalada separadamente.",
+        "Existe tradução PT-BR listada na fonte; conferir a versão antes de instalar.",
+        "TrueHUD, DAR/OAR, MCO e SCAR aparecem como opcionais na fonte; não são todos requisitos obrigatórios deste patch."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "mountain-spirit-spid",
+      "name": "BDOR Mountain Spirit 3ba SPID",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "mountain-spirit",
+      "authors": [
+        "Casper / Casper0056"
+      ],
+      "summary": "Distribuição do conjunto Mountain Spirit para Stormcloaks.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1.0",
+      "requirements": [
+        "BDOR Mountain Spirit em versão SE adequada",
+        "SPID (distribuidor mencionado na descrição)"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/99701",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A seção Upload permission proíbe reupload.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/99701"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A página de requisitos aponta para um original LE. Não instalar esse arquivo LE diretamente em SE.",
+        "É preciso encontrar o port SE correto e conferir os identificadores esperados pelo patch."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "courier-poetica-spid",
+      "name": "Holy's Courier - BDOR Poetica - SPID",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "courier-poetica-spid",
+      "authors": [
+        "sweetinsanity9"
+      ],
+      "summary": "Distribui a roupa Poetica para a mensageira do replacer de holymurder.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": "1",
+      "requirements": [
+        "Courier Replacer, de holymurder",
+        "Spell Perk Item Distributor (SPID)",
+        "BDOR Poetica SE"
+      ],
+      "requirements_complete": true,
+      "related_ids": [],
+      "availability": "page_available",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/156140",
+        "kind": "author_page",
+        "verification": "page_read",
+        "checked_on": "2026-09-06",
+        "search_result_id": null
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A seção Upload permission proíbe upload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/156140"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Não contém automaticamente o replacer, a armadura ou o SPID.",
+        "O link externo do traje é uma dependência indicada pelo autor do patch, não uma permissão de reupload."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "armor-traders-2",
+      "name": "Armor Traders 2 — integrações BDO",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "armor-traders-2",
+      "authors": [],
+      "summary": "Mod de comerciantes com opções de integração para BDO Lucien e BDO India.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "Conferir requisitos da versão e das opções escolhidas na publicação"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/45139",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 7
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A permissão de upload indexada proíbe reupload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/45139"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Também integra conteúdo de outros jogos/autores. Apenas as opções BDO são o foco desta referência.",
+        "Não assumir que todos os trajes opcionais estejam incluídos no arquivo principal."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "armor-traders-3",
+      "name": "Smugglers - Armor Traders 3 — integrações BDOR",
+      "category": "integracoes",
+      "scope": "principal",
+      "family": "armor-traders-3",
+      "authors": [],
+      "summary": "Mod de comerciantes cuja descrição inclui opções para BDOR Caroxya e Sephia.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/49979",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 6
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A permissão de upload indexada proíbe reupload em outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/49979"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "Integração mista, não um pack exclusivamente Black Desert.",
+        "Confirmar as dependências da opção escolhida e os arquivos-base das armaduras."
+      ],
+      "external_site_may_show_adult_content": true
+    },
+    {
+      "id": "frea-valkyrie",
+      "name": "Oh My Frea - Valkyrie",
+      "category": "personagens",
+      "scope": "principal",
+      "family": "frea-valkyrie",
+      "authors": [],
+      "summary": "Replacer de Frea com opção de equipamento BDO Valkyrie.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [
+        "RaceMenu",
+        "KS Hairdos SSE",
+        "BDO Valkyrie (variante equipada)",
+        "Eimar's Edge SSE (variante equipada)"
+      ],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "unverified",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/137438",
+        "kind": "author_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 2
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "forbidden",
+        "note": "A permissão de upload indexada proíbe envio a outros sites.",
+        "evidence_url": "https://www.nexusmods.com/skyrimspecialedition/mods/137438"
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "A fonte distingue a versão Valkyrie da versão NonOutfit, que muda somente o rosto.",
+        "Texturas de pele recomendadas não são automaticamente requisitos obrigatórios.",
+        "Ler a advertência específica do autor sobre BodySlide da roupa BDO Valkyrie."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "hidden-crafting",
+      "name": "BDOR Complete Collection - Craftable and Temperable",
+      "category": "patches",
+      "scope": "historico",
+      "family": "hidden-crafting",
+      "authors": [],
+      "summary": "Referência histórica; não é um download disponível validado.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "hidden",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/103046",
+        "kind": "historical_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 7
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice mostra publicação oculta desde 10/04/2024.",
+        "Sem tentativa de recuperar arquivos ocultos, usar IDs antigos ou recorrer a mirrors não autorizados."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "hidden-leveled",
+      "name": "Parche para distribuir a las listas niveladas las armaduras del Black Desert",
+      "category": "patches",
+      "scope": "historico",
+      "family": "hidden-leveled",
+      "authors": [],
+      "summary": "Referência histórica; não é um download disponível validado.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "hidden",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/101137",
+        "kind": "historical_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 1
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice mostra publicação oculta desde 23/12/2024.",
+        "Sem tentativa de recuperar arquivos ocultos, usar IDs antigos ou recorrer a mirrors não autorizados."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "removed-outfits-spid",
+      "name": "Black Desert Online Outfits 2024 - SPID NPC Distribution",
+      "category": "patches",
+      "scope": "historico",
+      "family": "removed-outfits-spid",
+      "authors": [],
+      "summary": "Referência histórica; não é um download disponível validado.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "removed",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/114311",
+        "kind": "historical_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 2
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice informa remoção pela equipe do site.",
+        "Sem tentativa de recuperar arquivos ocultos, usar IDs antigos ou recorrer a mirrors não autorizados."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "removed-bdor-spid",
+      "name": "BDOR Armor SPID",
+      "category": "patches",
+      "scope": "historico",
+      "family": "removed-bdor-spid",
+      "authors": [],
+      "summary": "Referência histórica; não é um download disponível validado.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "removed",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/99499",
+        "kind": "historical_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 2
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice informa que a página/arquivo não pode ser localizado.",
+        "Sem tentativa de recuperar arquivos ocultos, usar IDs antigos ou recorrer a mirrors não autorizados."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "removed-hair-edits",
+      "name": "JJakeno's edits - Dint's BDOr Hairstyles",
+      "category": "patches",
+      "scope": "historico",
+      "family": "removed-hair-edits",
+      "authors": [],
+      "summary": "Referência histórica; não é um download disponível validado.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "removed",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/95701",
+        "kind": "historical_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 10
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice informa remoção pelo autor.",
+        "Sem tentativa de recuperar arquivos ocultos, usar IDs antigos ou recorrer a mirrors não autorizados."
+      ],
+      "external_site_may_show_adult_content": false
+    },
+    {
+      "id": "removed-unisex-pocketdirt",
+      "name": "Dint's BDOR SMP Hair and Wigs - Unisex Patch",
+      "category": "patches",
+      "scope": "historico",
+      "family": "removed-unisex-pocketdirt",
+      "authors": [],
+      "summary": "Referência histórica; não é um download disponível validado.",
+      "edition": "SE",
+      "runtime_note": "Compatibilidade com o executável específico de SE/AE não testada; verificar as dependências na fonte.",
+      "body": [],
+      "version_observed": null,
+      "requirements": [],
+      "requirements_complete": false,
+      "related_ids": [],
+      "availability": "removed",
+      "source": {
+        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/127090",
+        "kind": "historical_page",
+        "verification": "search_index",
+        "checked_on": "2026-09-06",
+        "search_result_id": 4
+      },
+      "evidence": [],
+      "redistribution": {
+        "status": "unverified",
+        "note": "Não foi localizada autorização suficiente para republicar este arquivo no GitHub. Ausência de proibição visível não é permissão.",
+        "evidence_url": null
+      },
+      "download": {
+        "mode": "manual_at_source",
+        "archive_in_release": false,
+        "archive_sha256": null,
+        "archive_size_bytes": null
+      },
+      "notes": [
+        "O índice da página-base informa remoção pela equipe, embora um resultado antigo da aba Files ainda mostre conteúdo.",
+        "Sem tentativa de recuperar arquivos ocultos, usar IDs antigos ou recorrer a mirrors não autorizados."
+      ],
+      "external_site_may_show_adult_content": false
+    }
+  ]
+}
